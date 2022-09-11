@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Application.Features.Brands.Dtos
 {
-    public class CreatedBrandDto
+    public class BrandGetByIdDto
     {
-        public int Id { get; set; }
-        public string Name { get; set; }          
+        public int ıd { get; set; }
+        public string Name { get; set; }
     }
 }
